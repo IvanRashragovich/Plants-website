@@ -371,10 +371,18 @@ button {
     font-size: 20px;
 }
 
+.footer-github > span > a:hover {
+    text-decoration: underline;
+}
+
 .footer-rss {
     margin: 0;
     font-size: 20px;
     font-weight: 400;
+}
+
+.footer-rss:hover {
+    text-decoration: underline;
 }
 
 .footer-social-list > svg + svg {
